@@ -1,0 +1,323 @@
+"id","professional","helpful","positive","efficient","skilful","trustworthy","kind","confident","sincere","intelligent","fair","hardworking","sender_gender","appropriateness","gender","age","education","emoji_usage","culture","formality","emoji","study","competence","warmness"
+1,2,4,4,3,3,3,4,4,4,2,3,3,"male",3,"female",22,"secondary school",3,"danish",0,"face_emoji","study1",-0.852462408912542,0.233635802486657
+45,4,4,5,4,4,4,5,5,4,4,3,4,"male",3,"male",23,"secondary school",4,"danish",0,"face_emoji","study1",0.382019867815799,0.732111872436998
+55,2,4,5,2,2,3,4,3,3,2,4,3,"male",3,"female",23,"bachelor",4,"danish",0,"face_emoji","study1",-1.27336197080705,0.486277215456641
+58,2,4,5,2,3,3,5,4,4,3,4,2,"male",3,"female",24,"secondary school",5,"danish",0,"face_emoji","study1",-1.01116344931782,1.00307316322506
+62,4,4,4,3,3,3,4,3,4,3,3,2,"male",3,"female",26,"bachelor",4,"danish",0,"face_emoji","study1",-0.521655112040718,-0.194990255317138
+77,3,4,5,4,4,4,5,5,4,4,5,3,"male",4,"female",23,"secondary school",2,"danish",0,"face_emoji","study1",0.242793920309823,1.07295793362627
+81,4,5,5,4,4,4,5,5,5,4,3,3,"male",4,"male",25,"secondary school",3,"danish",0,"face_emoji","study1",0.3133817290637,1.1074185795218
+91,3,5,5,5,4,3,5,3,4,2,3,3,"male",3,"female",22,"secondary school",4,"danish",0,"face_emoji","study1",-0.450422534348926,1.00703688233295
+92,2,4,4,3,3,4,4,4,3,3,3,3,"male",3,"female",24,"master",4,"danish",0,"face_emoji","study1",-0.547789073885888,-0.0209296647143898
+96,2,4,4,4,1,3,5,4,4,2,4,4,"male",3,"female",22,"secondary school",2,"danish",0,"face_emoji","study1",-0.930672329598838,0.868119764342577
+101,2,5,4,3,3,2,4,4,3,3,3,3,"male",3,"female",20,"secondary school",3,"danish",0,"face_emoji","study1",-0.795342231394515,0.14934532230183
+110,3,4,5,4,3,4,4,4,5,3,4,4,"male",4,"male",25,"secondary school",5,"danish",0,"face_emoji","study1",-0.0751694198996265,0.859970028981308
+112,3,3,4,4,4,4,4,3,4,4,4,3,"male",3,"female",22,"secondary school",5,"danish",0,"face_emoji","study1",0.0747626261517449,-0.137067314705081
+118,1,4,3,2,2,2,3,4,3,2,3,2,"male",2,"other",23,"secondary school",2,"danish",0,"face_emoji","study1",-1.44827282412955,-0.679472813280768
+119,1,4,5,4,3,3,5,3,4,3,3,3,"male",2,"male",30,"bachelor",3,"danish",0,"face_emoji","study1",-0.983877189576935,1.00906474646875
+137,2,4,4,3,3,4,4,3,4,2,2,2,"male",2,"female",24,"secondary school",4,"danish",0,"face_emoji","study1",-1.01151952870514,0.00568122807423654
+142,2,4,5,5,3,3,4,4,4,3,3,3,"male",4,"male",24,"secondary school",2,"danish",0,"face_emoji","study1",-0.454845495489588,0.542676394073911
+157,3,3,4,3,2,2,4,4,4,3,3,2,"male",3,"male",45,"PhD",3,"danish",0,"face_emoji","study1",-0.930078011413624,-0.236972734686196
+1,3,3,4,4,3,3,4,3,3,3,3,3,"male",3,"female",22,"secondary school",3,"danish",1,"face_emoji","study1",-0.49373695115762,-0.44086400453687
+45,4,4,4,4,4,4,4,4,4,4,3,4,"male",3,"male",23,"secondary school",4,"danish",1,"face_emoji","study1",0.431774682241175,-0.0716176062360415
+55,4,4,5,3,4,4,5,4,3,4,4,4,"female",4,"female",23,"bachelor",4,"danish",1,"face_emoji","study1",0.194445217861104,0.59830350654129
+58,4,5,5,4,4,4,5,4,4,4,4,5,"female",4,"female",24,"secondary school",5,"danish",1,"face_emoji","study1",0.491666837644221,1.10208117178983
+62,4,3,3,4,3,4,3,3,4,3,3,2,"male",3,"female",26,"bachelor",4,"danish",1,"face_emoji","study1",-0.108374798974742,-1.14202888639523
+77,5,5,5,5,5,5,5,5,5,5,5,5,"male",5,"female",23,"secondary school",2,"danish",1,"face_emoji","study1",1.50130077942512,1.32822532112733
+81,5,5,5,3,5,5,5,5,5,5,3,3,"male",5,"male",25,"secondary school",3,"danish",1,"face_emoji","study1",0.832548644752517,0.922820543977149
+91,4,5,5,4,4,4,5,5,5,5,3,3,"female",5,"female",22,"secondary school",4,"danish",1,"face_emoji","study1",0.490687936547404,1.04981862415967
+92,5,4,4,4,4,4,4,4,4,4,3,4,"male",5,"female",24,"master",4,"danish",1,"face_emoji","study1",0.61814030444801,-0.200193739714198
+96,4,4,4,3,5,5,4,4,3,5,4,5,"male",4,"female",22,"secondary school",2,"danish",1,"face_emoji","study1",0.941877125131848,-0.146717214325979
+101,5,4,4,4,5,4,4,3,3,4,3,3,"female",5,"female",20,"secondary school",3,"danish",1,"face_emoji","study1",0.549825205036075,-0.5565137261013
+110,5,5,5,5,5,5,5,4,4,5,5,5,"male",5,"male",25,"secondary school",5,"danish",1,"face_emoji","study1",1.38074840790848,1.05723528231877
+112,5,4,3,4,4,4,4,4,4,4,4,4,"male",4,"female",22,"secondary school",5,"danish",1,"face_emoji","study1",0.767744253084204,-0.427082140589985
+118,5,4,4,4,5,4,3,4,4,5,4,4,"female",3,"other",23,"secondary school",2,"danish",1,"face_emoji","study1",1.12431153665069,-0.530013890367256
+119,2,4,4,2,2,1,4,2,2,3,3,3,"male",1,"male",30,"bachelor",3,"danish",1,"face_emoji","study1",-1.50184372026878,-0.393193690934739
+137,2,4,3,4,4,4,3,3,4,3,3,3,"male",3,"female",24,"secondary school",4,"danish",1,"face_emoji","study1",-0.178615012329514,-0.624401929479045
+142,5,4,4,4,4,4,3,4,3,5,3,3,"male",5,"male",24,"secondary school",2,"danish",1,"face_emoji","study1",0.761807510859067,-0.931259844076892
+157,4,4,4,4,3,4,4,4,3,3,3,3,"male",4,"male",45,"PhD",3,"danish",1,"face_emoji","study1",-0.0294121851343827,-0.277225107283784
+4,2,5,5,4,3,4,5,5,4,3,4,3,"female",3,"male",22,"secondary school",4,"hungarian",0,"face_emoji","study1",-0.331805959727062,1.36080890961854
+14,1,3,5,4,1,3,4,4,5,1,3,3,"female",1,"female",22,"secondary school",3,"hungarian",0,"face_emoji","study1",-1.48476820657549,0.831374141719699
+9,2,5,5,4,3,4,5,4,4,4,4,4,"female",3,"female",22,"secondary school",3,"hungarian",0,"face_emoji","study1",-0.153515793071529,1.31694925254788
+36,4,4,4,5,4,4,4,5,5,4,5,4,"male",4,"female",20,"secondary school",4,"hungarian",0,"face_emoji","study1",0.855219429895193,0.476306251558952
+39,2,4,2,2,1,3,3,5,3,1,3,1,"female",2,"female",50,"master",1,"hungarian",0,"face_emoji","study1",-1.3927647139125,-1.08363554880097
+30,3,5,5,4,4,4,5,5,5,4,4,4,"female",3,"female",21,"secondary school",5,"hungarian",0,"face_emoji","study1",0.31574652985533,1.43784027718813
+54,1,5,5,3,1,2,5,3,3,2,3,3,"female",1,"female",20,"secondary school",4,"hungarian",0,"face_emoji","study1",-1.75170372977093,1.08216311400156
+98,3,5,5,4,4,2,5,3,3,2,3,5,"female",3,"female",17,"primary school",5,"hungarian",0,"face_emoji","study1",-0.526079739211877,0.888913163138551
+100,5,5,5,5,5,5,5,5,5,5,5,5,"female",5,"female",14,"primary school",2,"hungarian",0,"face_emoji","study1",1.50130077942512,1.32822532112733
+104,2,4,5,3,3,3,2,4,5,2,3,3,"male",4,"male",24,"bachelor",4,"hungarian",0,"face_emoji","study1",-0.736219058827555,0.0420143470727215
+106,3,3,5,4,4,5,5,5,5,5,5,5,"female",3,"female",16,"primary school",2,"hungarian",0,"face_emoji","study1",0.760500271956585,1.16966263686365
+124,1,5,5,3,3,3,5,2,3,3,3,3,"female",1,"female",24,"secondary school",4,"hungarian",0,"face_emoji","study1",-1.22003556067458,0.955408387034889
+132,3,4,4,4,4,3,4,4,4,3,3,3,"female",3,"female",22,"bachelor",3,"hungarian",0,"face_emoji","study1",-0.180800605680778,0.0267936573431448
+133,3,4,2,2,1,1,2,3,2,3,2,1,"female",3,"female",16,"primary school",2,"hungarian",0,"face_emoji","study1",-1.34978098473115,-2.22315822635458
+72,4,1,3,3,2,4,3,5,5,4,2,3,"female",2,"female",18,"secondary school",5,"hungarian",0,"face_emoji","study1",-0.0379786939034897,-1.36851841598321
+147,3,4,5,4,4,4,5,4,3,4,3,4,"female",4,"female",17,"other",2,"hungarian",0,"face_emoji","study1",0.0751018740923297,0.589697967106602
+138,3,5,4,4,3,4,5,4,4,3,3,3,"female",5,"female",24,"master",4,"hungarian",0,"face_emoji","study1",-0.262206218610442,0.679200612068133
+150,3,4,4,3,3,4,4,3,4,3,4,3,"female",3,"female",48,"secondary school",3,"hungarian",0,"face_emoji","study1",-0.380493910116365,0.159389200721881
+156,2,4,4,4,3,3,5,4,4,3,4,3,"female",4,"female",22,"secondary school",5,"hungarian",0,"face_emoji","study1",-0.538784520807044,0.703666980711752
+4,5,5,4,4,4,4,4,5,4,5,4,4,"female",4,"male",22,"secondary school",4,"hungarian",1,"face_emoji","study1",1.01323262051517,0.148502074581982
+14,4,5,4,5,5,5,5,5,5,4,5,5,"female",4,"female",22,"secondary school",3,"hungarian",1,"face_emoji","study1",1.208609532471,1.14947451179206
+9,5,5,3,4,5,5,4,5,5,5,4,5,"female",5,"female",22,"secondary school",3,"hungarian",1,"face_emoji","study1",1.50689026427616,0.0707403911889998
+36,5,5,5,5,5,5,5,5,5,5,5,5,"female",5,"female",20,"secondary school",4,"hungarian",1,"face_emoji","study1",1.50130077942512,1.32822532112733
+39,4,4,3,5,4,3,3,5,3,3,3,3,"female",4,"female",50,"master",1,"hungarian",1,"face_emoji","study1",0.407782397553216,-1.02544486343885
+30,5,5,5,4,4,4,5,5,5,4,4,4,"female",5,"female",21,"secondary school",5,"hungarian",1,"face_emoji","study1",0.688477774269,1.18068801023182
+54,4,5,4,5,4,4,4,3,3,4,3,3,"female",4,"female",20,"secondary school",4,"hungarian",1,"face_emoji","study1",0.376800542720504,-0.187367383784476
+98,5,5,5,5,5,5,4,5,5,5,5,5,"male",5,"female",17,"primary school",5,"hungarian",1,"face_emoji","study1",1.58919810904093,0.939489509226779
+100,5,5,4,5,5,5,3,4,5,5,5,5,"female",5,"female",14,"primary school",2,"hungarian",1,"face_emoji","study1",1.63895292346631,0.13576003055374
+104,5,5,5,5,5,5,5,5,5,5,4,4,"male",5,"male",24,"bachelor",4,"hungarian",1,"face_emoji","study1",1.31257035642665,1.12637975693916
+106,5,5,5,5,5,5,5,5,5,5,5,5,"female",5,"female",16,"primary school",2,"hungarian",1,"face_emoji","study1",1.50130077942512,1.32822532112733
+124,3,5,5,4,3,3,4,4,3,4,3,3,"female",2,"female",24,"secondary school",4,"hungarian",1,"face_emoji","study1",-0.218208938969838,0.352910714396704
+132,5,5,5,5,5,5,5,5,5,5,5,5,"female",5,"female",22,"bachelor",3,"hungarian",1,"face_emoji","study1",1.50130077942512,1.32822532112733
+133,2,3,2,2,1,2,3,2,1,2,3,2,"female",2,"female",16,"primary school",2,"hungarian",1,"face_emoji","study1",-1.62441533617977,-1.91162354562304
+72,3,4,4,3,2,4,4,5,4,3,2,3,"female",4,"female",18,"secondary school",5,"hungarian",1,"face_emoji","study1",-0.481838775265583,0.00496862400638599
+147,5,4,4,5,5,4,4,4,4,5,4,4,"female",5,"female",17,"other",2,"hungarian",1,"face_emoji","study1",1.18205985137271,-0.140421254079792
+138,5,3,3,4,2,2,2,3,2,3,3,3,"female",4,"female",24,"master",4,"hungarian",1,"face_emoji","study1",-0.186800468701783,-2.06377294136398
+150,5,5,4,5,4,4,5,4,4,5,4,4,"female",5,"female",48,"secondary school",3,"hungarian",1,"face_emoji","study1",0.961857837310325,0.488027942272504
+156,4,4,3,4,4,3,3,4,4,4,3,3,"male",4,"female",22,"secondary school",5,"hungarian",1,"face_emoji","study1",0.341749136361998,-0.913045141573239
+6,3,4,4,4,3,3,4,4,3,3,3,2,"male",3,"female",24,"primary school",3,"danish",0,"non_face_emoji","study2",-0.464681265572631,-0.236413799066729
+16,3,5,5,3,3,4,5,4,4,3,4,4,"male",4,"female",26,"secondary school",4,"danish",0,"non_face_emoji","study2",-0.290102022686233,1.24511625004493
+21,4,3,4,4,4,4,4,4,4,3,3,3,"male",5,"male",24,"bachelor",4,"danish",0,"non_face_emoji","study2",0.114321772901962,-0.296015221523925
+22,4,4,5,3,3,3,4,4,5,3,3,3,"male",5,"male",24,"secondary school",4,"danish",0,"non_face_emoji","study2",-0.361976266161814,0.504733748555371
+44,3,4,4,3,3,3,4,3,5,3,3,3,"male",3,"female",22,"secondary school",4,"danish",0,"non_face_emoji","study2",-0.58648440355909,0.218316215261034
+46,2,4,5,4,4,5,5,5,4,4,4,3,"male",4,"female",22,"secondary school",4,"danish",0,"non_face_emoji","study2",0.116601333335936,1.08745332817736
+122,4,4,5,4,3,4,4,4,4,3,4,3,"male",4,"male",22,"secondary school",4,"danish",0,"non_face_emoji","study2",-0.0103401283812549,0.446663558403136
+67,1,1,1,1,1,1,1,1,1,1,1,1,"female",1,"other",34,"PhD",1,"danish",0,"non_face_emoji","study2",-2.46231014571155,-3.71899239912709
+75,2,4,5,3,3,3,5,5,5,4,4,3,"male",3,"female",27,"bachelor",2,"danish",0,"non_face_emoji","study2",-0.457552168880961,1.2811271379468
+79,2,3,3,2,3,2,4,2,4,3,4,2,"male",3,"female",36,"bachelor",4,"danish",0,"non_face_emoji","study2",-1.16838719597243,-0.457798244354774
+86,2,4,4,3,3,3,4,4,4,3,3,2,"male",3,"male",21,"secondary school",4,"danish",0,"non_face_emoji","study2",-0.785263258527528,0.112228780236117
+89,2,2,3,2,2,2,3,3,3,3,2,2,"male",1,"female",24,"bachelor",2,"danish",0,"non_face_emoji","study2",-1.33242674777928,-1.49013517554097
+93,4,4,4,4,4,4,4,3,4,3,4,4,"male",4,"male",26,"master",2,"danish",0,"non_face_emoji","study2",0.223968742730385,0.0739540778289088
+115,4,3,5,4,4,5,5,5,5,3,3,3,"male",5,"male",21,"secondary school",2,"danish",0,"non_face_emoji","study2",0.214792633199082,0.752595285733416
+116,3,2,4,4,3,3,4,3,4,3,5,3,"male",4,"female",23,"secondary school",2,"danish",0,"non_face_emoji","study2",-0.355100590525116,-0.162054243487345
+146,2,2,4,3,1,2,1,4,3,1,3,1,"male",1,"female",24,"bachelor",3,"danish",0,"non_face_emoji","study2",-1.52128436438909,-1.6408020863569
+149,2,3,3,1,2,2,4,3,3,2,3,1,"male",2,"female",23,"secondary school",2,"danish",0,"non_face_emoji","study2",-1.74471997565874,-0.752234298492254
+151,2,5,5,3,3,4,4,3,5,3,3,4,"male",3,"female",20,"secondary school",3,"danish",0,"non_face_emoji","study2",-0.564887505514113,1.01777457593745
+6,2,4,4,3,3,3,4,4,2,2,3,2,"male",3,"female",24,"primary school",3,"danish",1,"non_face_emoji","study2",-0.985428013190778,-0.272017804824968
+16,5,4,5,4,5,5,4,5,5,5,4,5,"male",5,"female",26,"secondary school",4,"danish",1,"non_face_emoji","study2",1.33488945404651,0.582403683778492
+21,3,4,4,4,3,2,4,4,2,3,3,3,"male",4,"male",24,"bachelor",4,"danish",1,"non_face_emoji","study2",-0.504799883196437,-0.417487760762622
+22,5,4,3,3,3,5,3,2,2,2,2,2,"male",5,"male",24,"secondary school",4,"danish",1,"non_face_emoji","study2",-0.286729993706086,-1.60166543308379
+44,4,4,4,5,4,4,4,4,4,3,4,4,"female",5,"female",22,"secondary school",4,"danish",1,"non_face_emoji","study2",0.47873748499508,0.12487767081277
+46,5,4,4,4,4,5,4,4,4,4,4,4,"male",4,"female",22,"secondary school",4,"danish",1,"non_face_emoji","study2",0.835560071480507,-0.0381974840417426
+122,4,4,4,4,4,4,4,4,4,4,4,4,"male",4,"male",22,"secondary school",4,"danish",1,"non_face_emoji","study2",0.510398048140949,0.0664208910637204
+67,1,1,1,1,1,1,1,1,1,1,1,1,"female",1,"other",34,"PhD",1,"danish",1,"non_face_emoji","study2",-2.46231014571155,-3.71899239912709
+75,4,5,5,5,5,4,5,5,4,4,4,4,"male",4,"female",27,"bachelor",2,"danish",1,"non_face_emoji","study2",0.798672852013616,1.06767481719514
+79,4,4,4,4,3,4,4,3,3,3,3,4,"male",3,"female",36,"bachelor",4,"danish",1,"non_face_emoji","study2",-0.0284282259625531,-0.263484808992319
+86,4,4,4,4,3,4,4,4,4,4,3,3,"male",4,"male",21,"secondary school",4,"danish",1,"non_face_emoji","study2",0.159323295939095,-0.113901792434307
+89,3,3,3,3,3,3,3,3,3,3,3,3,"male",3,"female",24,"bachelor",2,"danish",1,"non_face_emoji","study2",-0.480504683143218,-1.19538353899988
+93,5,4,4,4,5,5,4,4,4,5,4,4,"male",4,"male",26,"master",2,"danish",1,"non_face_emoji","study2",1.1752106081676,-0.117320320094017
+115,2,3,4,2,3,3,4,3,2,2,2,2,"male",4,"male",21,"secondary school",2,"danish",1,"non_face_emoji","study2",-1.34885976611207,-0.679170398870197
+116,4,3,4,4,4,4,4,3,4,3,4,3,"male",4,"female",23,"secondary school",2,"danish",1,"non_face_emoji","study2",0.0838220408748759,-0.208043492821106
+146,3,3,3,4,3,4,4,4,4,3,3,4,"female",4,"female",24,"bachelor",3,"danish",1,"non_face_emoji","study2",-0.0533005386731527,-0.447036038642767
+149,3,3,5,2,3,3,5,2,3,2,3,3,"male",3,"female",23,"secondary school",2,"danish",1,"non_face_emoji","study2",-1.23033545759609,0.318618243530578
+151,4,4,4,4,4,4,4,4,4,4,4,4,"female",4,"female",20,"secondary school",3,"danish",1,"non_face_emoji","study2",0.510398048140949,0.0664208910637204
+2,3,5,4,4,3,3,5,4,4,3,4,4,"female",2,"female",43,"bachelor",3,"hungarian",0,"non_face_emoji","study2",-0.212272196744701,0.85708841788361
+12,3,5,4,4,2,2,3,4,3,3,2,3,"female",4,"female",22,"secondary school",4,"hungarian",0,"non_face_emoji","study2",-0.616401330337193,-0.483625415299573
+23,3,3,1,3,2,3,4,2,3,2,2,2,"female",2,"female",20,"secondary school",4,"hungarian",0,"non_face_emoji","study2",-1.06394490489861,-1.70929102018328
+27,2,4,4,3,3,3,2,4,3,1,2,2,"female",2,"male",46,"bachelor",4,"hungarian",0,"non_face_emoji","study2",-1.05413365375285,-0.909004700352083
+32,2,3,4,3,3,3,4,3,4,4,4,4,"female",2,"male",22,"secondary school",4,"hungarian",0,"non_face_emoji","study2",-0.448282313630348,0.0520241835920144
+33,2,5,5,4,3,3,5,3,4,2,4,3,"female",3,"female",21,"secondary school",5,"hungarian",0,"non_face_emoji","study2",-0.866154764197211,1.2943175694141
+37,3,4,3,3,2,3,4,1,3,2,3,3,"female",2,"male",53,"master",2,"hungarian",0,"non_face_emoji","study2",-1.09625910054303,-0.609467924479344
+40,3,4,3,3,2,4,4,4,5,3,4,3,"male",3,"female",21,"bachelor",5,"hungarian",0,"non_face_emoji","study2",-0.351305285066701,0.0869752220450255
+47,1,4,4,3,2,1,4,2,5,2,3,3,"female",2,"female",28,"bachelor",3,"hungarian",0,"non_face_emoji","study2",-1.68558208485216,0.456609032927291
+51,3,5,5,4,3,5,5,2,4,3,4,4,"female",3,"female",20,"secondary school",4,"hungarian",0,"non_face_emoji","study2",-0.223906173069396,1.16979729561066
+95,1,4,4,3,2,3,4,4,5,4,3,3,"male",2,"female",21,"secondary school",4,"hungarian",0,"non_face_emoji","study2",-0.835130671765585,0.489458176142301
+107,4,4,4,4,4,4,4,4,4,4,4,4,"male",3,"female",18,"secondary school",5,"hungarian",0,"non_face_emoji","study2",0.510398048140949,0.0664208910637204
+108,1,4,5,3,2,3,4,4,4,3,4,4,"female",2,"female",20,"secondary school",3,"hungarian",0,"non_face_emoji","study2",-0.906116312577017,0.892907323656543
+121,3,4,4,4,3,3,3,4,3,2,4,4,"female",3,"female",21,"secondary school",5,"hungarian",0,"non_face_emoji","study2",-0.255252663343364,-0.301897024528566
+125,1,3,3,1,1,2,4,2,4,2,4,2,"female",1,"female",16,"primary school",1,"hungarian",0,"non_face_emoji","study2",-2.00239332840758,-0.22943321852112
+127,4,5,5,5,5,5,5,5,5,5,5,5,"female",4,"female",18,"secondary school",4,"hungarian",0,"non_face_emoji","study2",1.31493515721828,1.45680145460548
+129,5,4,5,5,5,5,5,5,5,5,5,5,"male",5,"female",15,"primary school",5,"hungarian",0,"non_face_emoji","study2",1.4712611346683,1.11003481736572
+131,1,4,3,2,3,3,4,2,3,3,4,4,"female",5,"female",18,"primary school",5,"hungarian",0,"non_face_emoji","study2",-0.977131931682117,-0.180382985177111
+135,2,4,4,3,3,3,4,5,5,3,3,3,"male",2,"female",21,"secondary school",4,"hungarian",0,"non_face_emoji","study2",-0.554603829912204,0.447025885933077
+70,4,5,5,3,5,4,5,5,4,3,4,4,"male",3,"female",16,"primary school",2,"hungarian",0,"non_face_emoji","study2",0.330075355854242,1.12356112378344
+143,3,3,4,5,4,3,3,4,4,4,3,3,"female",3,"female",15,"primary school",4,"hungarian",0,"non_face_emoji","study2",0.200008930999759,-0.636875789294221
+153,3,4,4,4,4,4,5,5,5,5,5,5,"female",3,"female",21,"secondary school",4,"hungarian",0,"non_face_emoji","study2",0.722724098317101,0.998968484077013
+2,5,4,4,5,4,4,4,5,4,5,4,4,"female",5,"female",43,"bachelor",3,"hungarian",1,"non_face_emoji","study2",1.12883862009618,-0.0688316047927058
+12,5,4,4,3,3,2,3,5,4,4,3,3,"female",5,"female",22,"secondary school",4,"hungarian",1,"non_face_emoji","study2",0.119470899085326,-0.629919310348371
+23,4,5,4,4,4,5,4,5,4,5,5,4,"female",5,"female",20,"secondary school",4,"hungarian",1,"non_face_emoji","study2",1.04428676534083,0.439074463732594
+27,4,4,4,4,4,4,4,4,4,4,4,4,"female",4,"male",46,"bachelor",4,"hungarian",1,"non_face_emoji","study2",0.510398048140949,0.0664208910637204
+32,3,4,4,4,4,3,4,3,3,5,4,3,"female",3,"male",22,"secondary school",4,"hungarian",1,"non_face_emoji","study2",0.131882803669771,-0.221357794889907
+33,5,5,5,5,5,5,2,5,5,5,5,5,"female",5,"female",21,"secondary school",5,"hungarian",1,"non_face_emoji","study2",1.76499276827257,0.162017885425686
+37,4,4,4,4,4,4,4,4,4,4,4,4,"male",5,"male",53,"master",2,"hungarian",1,"non_face_emoji","study2",0.510398048140949,0.0664208910637204
+40,5,4,3,4,3,4,4,3,2,4,4,4,"male",4,"female",21,"bachelor",5,"hungarian",1,"non_face_emoji","study2",0.473418278774408,-0.897472568920002
+47,3,5,4,5,4,4,2,5,2,4,5,5,"female",4,"female",28,"bachelor",3,"hungarian",1,"non_face_emoji","study2",0.95050734800618,-0.553361478748795
+51,4,4,3,2,3,3,3,5,2,4,2,3,"female",4,"female",20,"secondary school",4,"hungarian",1,"non_face_emoji","study2",-0.104245296669522,-1.42305417878297
+95,5,4,4,3,4,4,5,4,4,4,3,3,"female",4,"female",21,"secondary school",4,"hungarian",1,"non_face_emoji","study2",0.274490273395668,0.123878180911023
+107,3,3,3,3,3,3,3,3,3,3,3,3,"male",3,"female",18,"secondary school",5,"hungarian",1,"non_face_emoji","study2",-0.480504683143218,-1.19538353899988
+108,3,5,4,4,3,4,4,3,4,4,4,4,"female",3,"female",20,"secondary school",3,"hungarian",1,"non_face_emoji","study2",0.0826046435606824,0.384643640396682
+121,5,4,4,4,4,5,4,5,4,5,4,5,"female",4,"female",21,"secondary school",5,"hungarian",1,"non_face_emoji","study2",1.23209643398976,0.0180763960814772
+125,4,4,3,4,4,4,3,5,5,4,4,3,"male",4,"female",16,"primary school",1,"hungarian",1,"non_face_emoji","study2",0.67972127491113,-0.480058847092232
+127,5,5,4,4,4,4,5,5,5,5,4,4,"female",5,"female",18,"secondary school",4,"hungarian",1,"non_face_emoji","study2",0.936764564489124,0.758161156694137
+129,5,5,5,5,5,5,5,5,5,5,5,5,"male",5,"female",15,"primary school",5,"hungarian",1,"non_face_emoji","study2",1.50130077942512,1.32822532112733
+131,4,3,2,4,3,3,3,3,3,4,4,2,"female",5,"female",18,"primary school",5,"hungarian",1,"non_face_emoji","study2",0.0683096824226605,-1.67139827121745
+135,5,4,3,4,4,3,4,3,3,3,3,3,"male",4,"female",21,"secondary school",4,"hungarian",1,"non_face_emoji","study2",0.142358849952678,-0.866275546597268
+70,5,5,5,4,4,4,3,5,3,5,4,4,"female",4,"female",16,"primary school",2,"hungarian",1,"non_face_emoji","study2",1.01872009380479,-0.0962301093546228
+143,4,4,5,4,4,4,4,4,4,5,5,3,"female",4,"female",15,"primary school",4,"hungarian",1,"non_face_emoji","study2",0.585239981689318,0.447979264288492
+153,4,5,5,5,5,5,5,5,5,5,5,5,"female",4,"female",21,"secondary school",4,"hungarian",1,"non_face_emoji","study2",1.31493515721828,1.45680145460548
+5,4,4,5,4,4,4,5,5,5,4,5,3,"female",4,"male",24,"secondary school",3,"danish",0,"no_emoji","study1",0.440588816106431,1.16530507035972
+8,3,4,5,4,2,4,4,5,4,3,4,3,"male",4,"female",25,"bachelor",3,"danish",0,"no_emoji","study1",-0.249926981864619,0.646829341168378
+10,1,2,4,4,2,3,4,4,3,2,3,1,"male",2,"female",23,"secondary school",5,"danish",0,"no_emoji","study1",-1.34724939328572,-0.400326770469764
+11,4,5,5,5,4,5,5,5,5,4,4,3,"male",5,"male",24,"bachelor",4,"danish",0,"no_emoji","study1",0.676447140434033,1.27027165958118
+13,3,4,3,4,3,4,3,3,2,3,3,3,"male",3,"male",22,"secondary school",3,"danish",0,"no_emoji","study1",-0.177452266505615,-1.17330172269028
+19,4,5,5,5,3,5,5,3,5,4,4,3,"male",5,"female",28,"secondary school",5,"danish",0,"no_emoji","study1",0.295856615376922,1.19166100307743
+20,3,5,5,5,4,4,5,5,4,4,4,4,"male",4,"female",23,"bachelor",4,"danish",0,"no_emoji","study1",0.449962900603392,1.21777383136344
+25,1,3,4,3,2,3,3,3,4,3,3,2,"male",3,"female",48,"bachelor",4,"danish",0,"no_emoji","study1",-1.18523862300562,-0.39466528985468
+28,3,4,4,3,2,2,4,1,2,3,2,1,"female",2,"male",51,"secondary school",1,"danish",0,"no_emoji","study1",-1.4389966306154,-0.812674641326805
+41,3,4,4,4,3,4,4,5,4,4,3,2,"male",3,"male",28,"secondary school",2,"danish",0,"no_emoji","study1",-0.0280262854395699,0.000934042752383943
+43,2,4,4,2,2,2,4,3,4,2,3,3,"male",2,"female",24,"secondary school",4,"danish",0,"no_emoji","study1",-1.40837188151335,0.180277331820245
+48,4,3,4,5,2,4,3,3,4,3,3,2,"male",4,"female",22,"bachelor",4,"danish",0,"no_emoji","study1",-0.196054066576717,-0.754722283142619
+49,1,4,3,4,3,3,5,4,5,2,3,4,"male",4,"female",23,"secondary school",3,"danish",0,"no_emoji","study1",-0.788562802972475,0.671608011176744
+50,2,3,4,2,2,1,3,1,2,2,3,2,"male",2,"female",24,"secondary school",4,"danish",0,"no_emoji","study1",-1.84052239791903,-1.05639388672011
+53,5,5,4,5,5,5,5,4,5,3,5,3,"male",5,"male",24,"bachelor",2,"danish",0,"no_emoji","study1",0.888331735069888,0.90081743130228
+60,3,4,4,5,4,4,4,4,4,3,4,2,"male",5,"male",22,"secondary school",4,"danish",0,"no_emoji","study1",0.0721577485908646,0.12583967051411
+61,3,4,2,1,2,2,3,3,4,2,2,1,"male",2,"male",26,"secondary school",4,"danish",0,"no_emoji","study1",-1.43663088865285,-1.33339786537305
+63,4,4,3,4,4,4,5,5,4,5,5,4,"male",4,"female",20,"secondary school",5,"danish",0,"no_emoji","study1",0.858533972571892,0.220735115323291
+64,2,4,3,3,4,4,4,4,4,4,4,3,"male",4,"male",20,"secondary school",3,"danish",0,"no_emoji","study1",-0.0471053149728258,-0.106017631430843
+65,3,3,4,4,3,2,3,2,3,3,3,2,"male",3,"male",23,"secondary school",3,"danish",0,"no_emoji","study1",-0.763866177700077,-0.967431410295461
+66,2,3,3,1,1,3,3,1,1,1,1,1,"male",5,"female",19,"secondary school",4,"danish",0,"no_emoji","study1",-2.25602825643011,-1.85594658818446
+68,3,4,5,3,2,2,3,4,3,3,4,2,"male",5,"female",18,"primary school",3,"danish",0,"no_emoji","study1",-0.815927527467408,-0.125475917561433
+69,2,3,3,2,2,2,3,2,2,1,2,2,"male",3,"male",34,"bachelor",2,"danish",0,"no_emoji","study1",-1.77755188950651,-1.42773479986366
+5,5,5,4,5,5,5,5,4,4,5,5,4,"male",5,"male",24,"secondary school",3,"danish",1,"no_emoji","study1",1.34162193354621,0.628501317254816
+8,4,5,5,4,4,4,4,4,4,4,4,3,"male",4,"female",25,"bachelor",3,"danish",1,"no_emoji","study1",0.359350053062657,0.585731226112468
+10,5,4,3,4,5,3,2,4,3,5,4,5,"male",4,"female",23,"secondary school",5,"danish",1,"no_emoji","study1",1.24307083137912,-1.46475056213925
+11,5,5,5,5,5,5,5,5,5,5,4,5,"male",5,"male",24,"bachelor",4,"danish",1,"no_emoji","study1",1.42267741352534,1.19018682382756
+13,4,4,3,3,3,4,3,4,3,4,3,4,"male",3,"male",22,"secondary school",3,"danish",1,"no_emoji","study1",0.271233347462413,-1.02553753022052
+19,5,5,5,5,5,5,5,5,5,5,5,5,"male",5,"female",28,"secondary school",5,"danish",1,"no_emoji","study1",1.50130077942512,1.32822532112733
+20,5,5,4,5,5,5,5,3,5,5,5,5,"male",5,"female",23,"bachelor",4,"danish",1,"no_emoji","study1",1.35403516630782,0.86316488575789
+25,3,4,4,3,3,4,4,3,4,4,3,3,"male",4,"female",48,"bachelor",4,"danish",1,"no_emoji","study1",-0.281811068532436,-0.0362492519400123
+28,4,4,4,4,3,4,4,3,4,3,3,3,"male",4,"male",51,"secondary school",1,"danish",1,"no_emoji","study1",-0.12710600947147,-0.106368605669119
+41,5,4,4,5,3,4,4,4,4,5,3,3,"male",3,"male",28,"secondary school",2,"danish",1,"no_emoji","study1",0.668640769967469,-0.299221056887676
+43,4,3,3,3,4,4,3,3,3,3,3,3,"male",4,"female",24,"secondary school",4,"danish",1,"no_emoji","study1",0.00700166939972961,-1.32152479479549
+48,5,4,5,5,3,5,4,3,2,4,2,3,"male",5,"female",22,"bachelor",4,"danish",1,"no_emoji","study1",0.348545369873886,-0.482688251297224
+49,5,4,4,4,3,5,4,5,5,4,3,4,"male",5,"female",23,"secondary school",3,"danish",1,"no_emoji","study1",0.715144747893977,0.116276938157189
+50,5,5,5,5,5,5,5,5,5,5,5,5,"male",5,"female",24,"secondary school",4,"danish",1,"no_emoji","study1",1.50130077942512,1.32822532112733
+53,3,4,5,4,2,1,3,5,1,1,3,3,"male",2,"male",24,"bachelor",2,"danish",1,"no_emoji","study1",-1.04594245728347,-0.499388143060572
+60,5,4,4,4,4,4,3,4,4,5,4,3,"male",5,"male",22,"secondary school",4,"danish",1,"no_emoji","study1",0.851860150348615,-0.572298076565522
+61,3,3,3,4,3,2,3,4,2,4,4,3,"male",3,"male",26,"secondary school",4,"danish",1,"no_emoji","study1",-0.12003204221754,-1.30890243266269
+63,4,5,5,5,4,4,5,3,5,4,4,4,"female",4,"female",20,"secondary school",5,"danish",1,"no_emoji","study1",0.429511600546279,1.20998743090301
+64,5,5,4,5,5,3,4,5,4,5,5,5,"male",5,"male",20,"secondary school",3,"danish",1,"no_emoji","study1",1.37115661592213,0.305723824094235
+65,5,4,4,4,5,5,5,4,4,5,4,4,"female",5,"male",23,"secondary school",3,"danish",1,"no_emoji","study1",1.08731327855178,0.27141549180653
+66,5,5,5,3,3,5,5,3,4,5,3,5,"male",4,"female",19,"secondary school",4,"danish",1,"no_emoji","study1",0.498398631099624,0.772423631728756
+68,5,5,5,5,5,5,5,5,5,5,5,5,"male",5,"female",18,"primary school",3,"danish",1,"no_emoji","study1",1.50130077942512,1.32822532112733
+69,4,4,3,4,4,4,3,4,4,4,3,4,"male",4,"male",34,"bachelor",2,"danish",1,"no_emoji","study1",0.590652594593411,-0.825280316312137
+3,1,2,3,1,1,2,2,2,2,2,2,2,"female",1,"male",22,"bachelor",2,"hungarian",0,"no_emoji","study1",-2.03674359291187,-1.94301888110656
+7,5,4,4,4,3,3,3,4,4,3,4,4,"female",3,"female",22,"other",4,"hungarian",0,"no_emoji","study1",0.306214062143784,-0.395725976635401
+15,2,3,3,2,2,3,3,3,2,3,2,2,"female",4,"female",22,"secondary school",4,"hungarian",0,"no_emoji","study1",-1.17501997547952,-1.46891018361828
+17,4,5,5,4,4,3,4,4,4,3,4,4,"female",3,"female",20,"secondary school",5,"hungarian",0,"no_emoji","study1",0.15335450154492,0.683180489990315
+18,2,4,4,4,3,4,4,4,3,4,3,3,"male",2,"male",22,"secondary school",3,"hungarian",0,"no_emoji","study1",-0.224837222064349,-0.0776727956896031
+24,3,5,4,3,3,4,4,5,5,3,5,3,"female",3,"female",22,"secondary school",4,"hungarian",0,"no_emoji","study1",-0.0421554300162777,0.836675009188744
+26,4,5,5,4,4,4,4,3,3,3,3,2,"male",2,"female",21,"secondary school",5,"hungarian",0,"no_emoji","study1",-0.127238948936145,0.170495578477878
+29,1,2,2,2,1,1,2,2,2,1,2,2,"male",1,"female",21,"secondary school",4,"hungarian",0,"no_emoji","study1",-2.13621997445404,-2.27344675790575
+56,4,5,5,3,4,4,4,5,4,5,5,3,"male",4,"female",24,"secondary school",5,"hungarian",0,"no_emoji","study1",0.578757080035162,0.715379712260124
+31,1,5,4,2,3,3,4,4,3,3,3,2,"female",3,"female",15,"primary school",4,"hungarian",0,"no_emoji","study1",-1.09866415390515,0.237215322877353
+34,2,4,3,3,3,4,4,3,4,2,4,3,"female",3,"female",21,"secondary school",5,"hungarian",0,"no_emoji","study1",-0.673185157070484,-0.0193616086133808
+35,3,5,4,3,2,5,4,2,5,5,4,4,"female",4,"male",12,"less than primary school",3,"hungarian",0,"no_emoji","study1",-0.00697654570120236,0.542524001325133
+38,3,5,5,4,3,4,5,5,4,3,3,5,"female",3,"female",23,"secondary school",4,"hungarian",0,"no_emoji","study1",-0.00384958922262166,1.22180841261744
+42,5,5,5,5,5,3,5,3,3,3,3,3,"female",5,"female",23,"secondary school",4,"hungarian",0,"no_emoji","study1",0.250529973162065,0.449838509112759
+52,2,4,4,2,2,3,4,1,3,3,3,3,"male",2,"female",27,"bachelor",3,"hungarian",0,"no_emoji","study1",-1.32194474234042,-0.174421672574688
+57,4,4,3,4,4,4,3,4,3,4,3,3,"male",3,"female",24,"secondary school",5,"hungarian",0,"no_emoji","study1",0.469116263904948,-1.11001065341215
+59,1,2,2,3,1,2,3,3,2,2,2,1,"male",1,"male",22,"bachelor",4,"hungarian",0,"no_emoji","study1",-1.76335301028742,-1.93123661689919
+97,1,3,2,2,2,2,3,3,3,2,2,3,"female",4,"female",16,"primary school",3,"hungarian",0,"no_emoji","study1",-1.48497129287789,-1.38688841422622
+3,2,2,2,2,2,2,2,2,2,2,2,2,"female",1,"male",22,"bachelor",2,"hungarian",1,"no_emoji","study1",-1.47140741442739,-2.45718796906349
+7,5,4,4,4,4,4,4,4,5,5,5,5,"female",4,"female",22,"other",4,"hungarian",1,"no_emoji","study1",1.07422957441973,0.303013636623211
+15,3,3,3,3,3,3,3,3,3,3,3,3,"female",5,"female",22,"secondary school",4,"hungarian",1,"no_emoji","study1",-0.480504683143218,-1.19538353899988
+17,5,5,5,5,4,4,4,4,4,5,4,4,"female",5,"female",20,"secondary school",5,"hungarian",1,"no_emoji","study1",0.978774584189722,0.464219028547507
+18,4,4,4,4,4,4,4,4,3,4,3,3,"male",4,"male",22,"secondary school",3,"hungarian",1,"no_emoji","study1",0.310238351552711,-0.356347943336058
+24,5,5,5,5,5,5,5,5,5,5,5,5,"female",5,"female",22,"secondary school",4,"hungarian",1,"no_emoji","study1",1.50130077942512,1.32822532112733
+26,5,5,5,5,4,5,5,4,4,5,5,5,"female",4,"female",21,"secondary school",5,"hungarian",1,"no_emoji","study1",1.21840407870509,1.07875816300892
+29,3,2,2,3,3,3,2,2,3,3,2,2,"male",4,"female",21,"secondary school",4,"hungarian",1,"no_emoji","study1",-0.649519936473125,-2.4191490856227
+56,5,4,4,5,5,5,5,5,5,5,5,5,"male",5,"female",24,"secondary school",5,"hungarian",1,"no_emoji","study1",1.54224171740472,0.745107919190169
+31,5,5,4,5,3,4,4,5,4,5,4,4,"female",5,"female",15,"primary school",4,"hungarian",1,"no_emoji","study1",0.996533935649613,0.170881779659043
+34,5,4,5,4,5,4,4,4,4,5,4,4,"female",5,"female",21,"secondary school",5,"hungarian",1,"no_emoji","study1",0.965433624298458,0.22364881970884
+35,5,4,4,5,4,5,2,5,4,5,3,5,"female",5,"male",12,"less than primary school",3,"hungarian",1,"no_emoji","study1",1.47491337165946,-0.896576900632459
+38,5,5,5,5,5,5,4,5,4,5,4,5,"female",5,"female",23,"secondary school",4,"hungarian",1,"no_emoji","study1",1.49914546955139,0.580527741715409
+42,5,5,5,5,5,5,5,5,5,5,3,3,"male",5,"female",23,"secondary school",4,"hungarian",1,"no_emoji","study1",1.12383993342819,0.924534192750985
+52,5,3,3,5,4,3,3,4,3,4,3,3,"female",4,"female",27,"bachelor",3,"hungarian",1,"no_emoji","study1",0.632291484560076,-1.47987822463769
+57,5,5,5,5,5,5,5,5,5,5,5,5,"female",5,"female",24,"secondary school",5,"hungarian",1,"no_emoji","study1",1.50130077942512,1.32822532112733
+59,5,5,5,5,5,5,4,5,5,5,5,5,"male",5,"male",22,"bachelor",4,"hungarian",1,"no_emoji","study1",1.58919810904093,0.939489509226779
+97,3,3,3,3,3,3,3,3,3,3,3,3,"female",5,"female",16,"primary school",3,"hungarian",1,"no_emoji","study1",-0.480504683143218,-1.19538353899988
+73,4,4,3,4,3,4,4,4,4,4,3,3,"male",4,"female",22,"secondary school",2,"danish",0,"no_emoji","study2",0.230303878675515,-0.478828690609857
+74,4,4,5,4,3,4,5,3,3,3,3,3,"female",4,"female",27,"bachelor",2,"danish",0,"no_emoji","study2",-0.29741319541348,0.426370834195369
+76,1,1,4,1,1,2,3,1,5,2,3,4,"male",1,"male",24,"secondary school",1,"danish",0,"no_emoji","study2",-2.00165894708131,-0.52919100167761
+78,4,3,4,3,3,3,4,3,4,3,3,3,"female",4,"male",24,"secondary school",2,"danish",0,"no_emoji","study2",-0.441587699698846,-0.349373692190336
+80,4,4,4,4,3,4,4,4,4,3,3,3,"male",5,"female",21,"secondary school",2,"danish",0,"no_emoji","study2",-0.0179829115446094,-0.0563018370721756
+82,3,3,4,4,3,4,4,4,4,3,4,3,"female",3,"female",22,"secondary school",5,"danish",0,"no_emoji","study2",-0.155764812608488,-0.00787771005586393
+83,2,3,4,3,1,2,4,3,4,1,3,2,"male",2,"female",21,"secondary school",3,"danish",0,"no_emoji","study2",-1.74252347571812,-0.0217405783905774
+84,3,3,5,4,3,3,4,4,4,3,4,3,"male",3,"female",22,"secondary school",2,"danish",0,"no_emoji","study2",-0.365541796477632,0.333091429746992
+85,4,5,5,4,3,4,5,3,4,3,2,3,"male",4,"male",25,"secondary school",4,"danish",0,"no_emoji","study2",-0.334567642966663,0.727446110868822
+87,3,4,5,4,3,3,4,4,4,3,3,3,"male",4,"male",21,"secondary school",4,"danish",0,"no_emoji","study2",-0.414125517620588,0.413243436208837
+88,4,5,5,5,4,5,5,5,5,4,5,3,"male",4,"female",21,"secondary school",5,"danish",0,"no_emoji","study2",0.755070506333807,1.40831015688094
+90,1,1,3,2,1,3,3,3,3,1,3,1,"male",2,"male",22,"secondary school",4,"danish",0,"no_emoji","study2",-1.95847604897993,-1.34483756562597
+94,1,1,2,2,1,2,3,2,2,1,2,1,"male",1,"female",30,"secondary school",4,"danish",0,"no_emoji","study2",-2.22546760479264,-2.14275075828253
+113,3,4,4,4,3,4,4,3,4,3,3,3,"male",5,"female",21,"secondary school",4,"danish",0,"no_emoji","study2",-0.313471631678305,0.0222075278090373
+114,2,3,3,3,3,2,3,2,3,2,2,2,"male",2,"female",21,"secondary school",3,"danish",0,"no_emoji","study2",-1.28082643489181,-1.2850775413174
+120,5,5,5,5,4,3,5,5,5,5,5,5,"female",5,"female",23,"primary school",2,"danish",0,"no_emoji","study2",1.06136364795628,1.30183268507208
+126,1,3,3,3,2,1,2,4,2,2,1,1,"male",1,"male",19,"secondary school",1,"danish",0,"no_emoji","study2",-1.66234895855345,-1.87030739462824
+128,2,3,4,3,2,3,4,3,3,3,4,3,"male",3,"male",47,"bachelor",2,"danish",0,"no_emoji","study2",-0.909469181005905,-0.153583317455728
+71,4,4,4,5,3,4,3,4,4,3,3,3,"male",5,"male",23,"secondary school",3,"danish",0,"no_emoji","study2",0.215560062409042,-0.444180824585804
+145,1,2,2,2,1,1,2,2,2,1,2,1,"male",1,"female",32,"bachelor",5,"danish",0,"no_emoji","study2",-2.24632703155273,-2.33725382479416
+141,2,5,5,4,4,2,5,5,5,3,3,3,"male",1,"female",35,"master",2,"danish",0,"no_emoji","study2",-0.51424852509912,1.37425528509486
+139,5,5,5,5,3,3,4,3,3,3,3,3,"male",4,"female",25,"secondary school",3,"danish",0,"no_emoji","study2",0.013738644371102,0.104148458592498
+140,3,3,5,3,3,3,5,3,4,3,3,3,"male",3,"male",28,"bachelor",3,"danish",0,"no_emoji","study2",-0.786831234257918,0.532865151363916
+158,2,5,4,3,2,4,4,3,3,2,3,2,"male",2,"male",23,"secondary school",5,"danish",0,"no_emoji","study2",-1.07663012084171,0.162509839614139
+73,5,4,4,4,4,5,4,4,4,5,4,4,"male",5,"female",22,"secondary school",2,"danish",1,"no_emoji","study2",1.01286627896421,-0.095797439403874
+74,4,4,5,2,4,4,4,5,4,4,3,3,"male",4,"female",27,"bachelor",2,"danish",1,"no_emoji","study2",0.068518851657255,0.277855344874207
+76,4,4,4,4,3,5,5,5,4,5,3,3,"male",5,"male",24,"secondary school",1,"danish",1,"no_emoji","study2",0.496651672866566,0.291258591073744
+78,3,3,4,3,3,3,4,5,4,3,3,3,"female",3,"male",24,"secondary school",2,"danish",1,"no_emoji","study2",-0.40970712605196,-0.120664021518294
+80,5,5,5,5,3,5,5,5,5,3,3,3,"male",4,"female",21,"secondary school",2,"danish",1,"no_emoji","study2",0.444538860053999,1.08277986485553
+82,4,4,4,4,4,4,4,4,4,4,4,4,"male",5,"female",22,"secondary school",5,"danish",1,"no_emoji","study2",0.510398048140949,0.0664208910637204
+83,5,5,5,4,5,5,5,4,4,5,4,5,"male",5,"female",21,"secondary school",3,"danish",1,"no_emoji","study2",1.15647939767087,0.918339960632094
+84,5,4,4,3,4,4,4,4,3,5,3,5,"male",5,"female",22,"secondary school",2,"danish",1,"no_emoji","study2",0.748478651102796,-0.415766722786447
+85,5,3,3,4,4,4,3,5,4,4,3,3,"male",4,"male",25,"secondary school",4,"danish",1,"no_emoji","study2",0.745994612871598,-1.18578725184336
+87,4,4,5,3,5,4,5,3,2,3,2,4,"male",3,"male",21,"secondary school",4,"danish",1,"no_emoji","study2",-0.0983157637353932,0.0873135478052035
+88,5,5,5,5,4,5,5,5,5,4,5,4,"male",4,"female",21,"secondary school",5,"danish",1,"no_emoji","study2",1.05154318563933,1.34354109029119
+90,4,5,4,4,3,4,4,3,3,3,5,3,"male",4,"male",22,"secondary school",4,"danish",1,"no_emoji","study2",0.0487510934951246,0.166975622480403
+94,5,2,5,4,4,5,5,3,3,3,3,3,"male",4,"female",30,"secondary school",4,"danish",1,"no_emoji","study2",0.130013867615831,-0.136151429123449
+113,5,4,3,2,3,4,3,4,3,4,4,4,"male",4,"female",21,"secondary school",4,"danish",1,"no_emoji","study2",0.390576691231188,-1.01693199078583
+114,3,3,3,3,3,3,3,3,3,3,3,3,"male",4,"female",21,"secondary school",3,"danish",1,"no_emoji","study2",-0.480504683143218,-1.19538353899988
+120,4,5,5,5,5,5,5,5,5,5,5,5,"female",5,"female",23,"primary school",2,"danish",1,"no_emoji","study2",1.31493515721828,1.45680145460548
+126,5,4,5,3,5,5,5,5,5,5,5,5,"male",5,"male",19,"secondary school",1,"danish",1,"no_emoji","study2",1.17996984599263,1.10832116859188
+128,4,4,3,3,4,4,4,3,3,3,3,3,"male",4,"male",47,"bachelor",2,"danish",1,"no_emoji","study2",-0.0508560154592683,-0.714598479133337
+71,5,4,4,5,4,5,4,4,3,4,3,3,"male",4,"male",23,"secondary school",3,"danish",1,"no_emoji","study2",0.781046019230104,-0.460109494054603
+145,2,2,2,2,2,1,2,2,1,2,2,2,"male",4,"female",32,"bachelor",5,"danish",1,"no_emoji","study2",-1.62163308914988,-2.70206899764779
+141,3,4,4,2,3,5,4,5,4,4,3,3,"female",1,"female",35,"master",2,"danish",1,"no_emoji","study2",-0.0704141158838265,0.0869852192396489
+139,5,5,5,5,4,3,4,3,3,3,3,3,"male",5,"female",25,"secondary school",3,"danish",1,"no_emoji","study2",0.176082973574492,0.0826255779023554
+140,5,3,4,4,4,4,4,4,4,5,3,3,"male",4,"male",28,"bachelor",3,"danish",1,"no_emoji","study2",0.655299810076205,-0.539791265726344
+158,5,4,4,5,4,4,4,4,4,4,4,4,"male",5,"male",23,"secondary school",5,"danish",1,"no_emoji","study2",0.842409314685619,-0.0612984180275175
+99,2,3,3,2,3,3,3,3,3,3,4,4,"female",3,"female",16,"primary school",4,"hungarian",0,"no_emoji","study2",-0.623785526689423,-0.865818665720476
+102,4,4,3,2,4,5,4,3,5,4,4,3,"female",5,"female",15,"primary school",4,"hungarian",0,"no_emoji","study2",0.221082861898645,-0.169212462786715
+103,3,3,4,3,2,3,5,3,3,3,3,3,"female",2,"female",19,"secondary school",2,"hungarian",0,"no_emoji","study2",-0.889624254314661,-0.0314621363330994
+105,1,2,3,2,1,1,3,2,2,1,2,2,"female",3,"male",17,"primary school",2,"hungarian",0,"no_emoji","study2",-2.29509788680627,-1.51978404782966
+109,2,3,3,3,3,2,3,2,3,2,2,2,"female",3,"female",16,"primary school",4,"hungarian",0,"no_emoji","study2",-1.28082643489181,-1.2850775413174
+111,1,4,5,3,3,3,5,4,5,2,5,5,"female",2,"female",16,"primary school",4,"hungarian",0,"no_emoji","study2",-0.80881582388491,1.74048904462886
+117,4,5,5,5,5,5,5,5,5,4,5,5,"female",4,"female",16,"primary school",5,"hungarian",0,"no_emoji","study2",1.13762894973458,1.51440140996761
+123,3,5,5,5,4,5,5,4,5,4,5,4,"female",5,"female",25,"bachelor",4,"hungarian",0,"no_emoji","study2",0.569688843298802,1.55062658865056
+130,1,4,3,1,1,3,3,2,4,1,4,2,"male",1,"female",24,"bachelor",4,"hungarian",0,"no_emoji","study2",-1.92296616038593,-0.318420812925235
+134,2,4,3,2,3,2,2,4,4,3,3,2,"female",3,"female",18,"primary school",5,"hungarian",0,"no_emoji","study2",-0.822930062030033,-1.05498432450014
+136,2,4,4,2,1,2,4,2,3,2,4,4,"female",2,"female",21,"secondary school",3,"hungarian",0,"no_emoji","study2",-1.50253815923491,0.132655737890006
+148,5,5,4,5,4,5,4,5,5,5,5,5,"female",5,"female",16,"primary school",3,"hungarian",0,"no_emoji","study2",1.49783436257396,0.596085491741372
+144,5,5,5,5,5,5,5,5,5,5,5,5,"female",5,"female",17,"primary school",3,"hungarian",0,"no_emoji","study2",1.50130077942512,1.32822532112733
+152,2,5,5,2,3,4,5,3,4,3,5,5,"female",3,"female",22,"secondary school",4,"hungarian",0,"no_emoji","study2",-0.542505964159298,1.5246143547274
+154,5,5,4,5,3,5,5,5,5,5,5,3,"female",4,"male",20,"secondary school",2,"hungarian",0,"no_emoji","study2",1.02737858955738,0.878730050555245
+155,2,3,2,2,2,2,2,2,2,2,2,2,"female",1,"female",21,"secondary school",5,"hungarian",0,"no_emoji","study2",-1.44136776967057,-2.23899746530188
+161,2,4,5,4,4,4,5,5,5,4,2,3,"female",3,"female",21,"secondary school",3,"hungarian",0,"no_emoji","study2",-0.168012526006563,1.00834184541675
+159,2,4,3,2,2,2,4,3,3,2,3,3,"female",2,"female",24,"bachelor",5,"hungarian",0,"no_emoji","study2",-1.3488205723667,-0.405572836566913
+160,2,5,4,4,3,3,5,3,4,3,4,5,"female",3,"female",20,"secondary school",4,"hungarian",0,"no_emoji","study2",-0.397653859779706,0.999404849653232
+99,2,3,3,2,3,3,4,3,3,3,3,4,"female",3,"female",16,"primary school",4,"hungarian",1,"no_emoji","study2",-0.790306222205015,-0.615121351119692
+102,5,5,4,5,5,5,4,4,2,5,5,5,"male",5,"female",15,"primary school",4,"hungarian",1,"no_emoji","study2",1.51676777308117,-0.138273968180538
+103,4,4,3,3,4,4,4,5,5,5,4,3,"female",4,"female",19,"secondary school",2,"hungarian",1,"no_emoji","study2",0.623484508441182,-0.149779814940736
+105,2,2,3,2,1,2,3,2,2,1,2,3,"female",4,"male",17,"primary school",2,"hungarian",1,"no_emoji","study2",-1.85982880636803,-1.56059535604671
+109,3,3,2,3,2,3,2,3,2,3,2,3,"female",5,"female",16,"primary school",4,"hungarian",1,"no_emoji","study2",-0.574023739483919,-2.28648513589721
+111,1,3,4,2,2,2,5,4,5,3,3,4,"female",2,"female",16,"primary school",4,"hungarian",1,"no_emoji","study2",-1.30470884199379,0.756595923772169
+117,5,5,5,5,5,5,5,5,5,5,5,5,"female",5,"female",16,"primary school",5,"hungarian",1,"no_emoji","study2",1.50130077942512,1.32822532112733
+123,5,5,4,5,5,4,4,5,4,5,5,5,"female",5,"female",25,"bachelor",4,"hungarian",1,"no_emoji","study2",1.50995301705486,0.329681582466928
+130,5,5,5,5,5,5,5,5,5,5,5,5,"female",5,"female",24,"bachelor",4,"hungarian",1,"no_emoji","study2",1.50130077942512,1.32822532112733
+134,5,5,3,4,4,5,3,5,5,5,4,5,"female",4,"female",18,"primary school",5,"hungarian",1,"no_emoji","study2",1.43244326468859,-0.296472540021404
+136,4,2,2,5,2,4,3,5,3,4,3,2,"female",4,"female",21,"secondary school",3,"hungarian",1,"no_emoji","study2",0.299990583886957,-1.88115627163518
+148,4,4,3,4,4,4,5,3,3,4,5,4,"male",3,"female",16,"primary school",3,"hungarian",1,"no_emoji","study2",0.451552295644694,-0.0427217367200721
+144,5,5,5,5,5,5,5,5,5,5,5,5,"female",5,"female",17,"primary school",3,"hungarian",1,"no_emoji","study2",1.50130077942512,1.32822532112733
+152,5,5,5,5,5,5,4,5,5,5,5,5,"male",5,"female",22,"secondary school",4,"hungarian",1,"no_emoji","study2",1.58919810904093,0.939489509226779
+154,5,5,4,5,4,5,4,5,5,5,5,4,"male",5,"male",20,"secondary school",2,"hungarian",1,"no_emoji","study2",1.38772730547527,0.532278424852964
+155,4,4,4,4,4,4,4,4,4,4,4,4,"female",4,"female",21,"secondary school",5,"hungarian",1,"no_emoji","study2",0.510398048140949,0.0664208910637204
+161,5,5,5,5,5,5,5,5,5,5,5,5,"female",5,"female",21,"secondary school",3,"hungarian",1,"no_emoji","study2",1.50130077942512,1.32822532112733
+159,5,4,3,4,4,3,3,3,3,3,3,4,"female",5,"female",24,"bachelor",5,"hungarian",1,"no_emoji","study2",0.340363236667185,-1.19120429160941
+160,5,3,2,4,4,3,2,4,3,4,3,4,"female",4,"female",20,"secondary school",4,"hungarian",1,"no_emoji","study2",0.755630809673168,-2.1705906922123

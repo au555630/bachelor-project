@@ -1,0 +1,228 @@
+---
+title: "data cleaning"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+```{r adding and fixing columns}
+
+h=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/study1_hun_no.csv")
+d=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/study1_dan_no.csv")
+
+#create culture column
+h$culture= "hungarian"    
+d$culture= "danish"
+
+#seperate into formal and informal questions
+hun_inf= h[, c(1:15, 30:34) ]
+hun_for=h[, c(1, 16:34) ]
+
+dan_inf= d[, c(1:15, 30:34) ]
+dan_for=d[, c(1, 16:34) ]
+
+#create formality column
+hun_inf$formality= 0
+hun_for$formality= 1
+
+dan_inf$formality= 0
+dan_for$formality= 1
+
+#create correct column names
+names= c("id", "professional", "helpful", "positive", "efficient", 
+         "skilful",  "trustworthy", "kind", "confident", "sincere", 
+         "intelligent", "fair", "hardworking", "sender_gender", "appropriateness",
+         "gender", "age", "education", "emoji_usage", "culture", "formality")
+
+#renames the columns
+colnames(hun_for)= names
+colnames(hun_inf)= names
+
+colnames(dan_for)= names
+colnames(dan_inf)= names
+
+#put together informal and formal again
+hun= rbind(hun_inf, hun_for)
+
+dan=rbind(dan_inf, dan_for)
+
+#create emoji column
+full= rbind(dan, hun)
+full$emoji= "no_emoji"  #remember to rename this
+
+#create study column
+full$study= "study1"
+
+
+```
+
+
+```{r make it english}
+
+#hungarian might have problems because of encoding!!! check especially "female" and "bachelor" 
+
+#REMEMBER TO CHECK FOR "OTHER"!
+
+#FIXING HUNGARIAN
+
+#fixing gender
+full = data.frame(lapply(full, function(x) {
+  gsub("N?'", "female", x)}))
+
+full = data.frame(lapply(full, function(x) {
+  gsub("Férfi", "male", x)}))
+
+
+#get rid of the "absolutely" ending of the scale
+#keeps only "5"
+full = data.frame(lapply(full, function(x) {
+  gsub(" \\(Teljes mértékben egyetértek\\)", "", x)}))
+
+#get rid of the "not at all" ending of the scale
+#keeps only "1"
+full = data.frame(lapply(full, function(x) {
+  gsub(" \\(Egy?.ltal?.n.nem.értek egyet\\)", "", x)}))
+
+
+#fixing education levels
+
+full = data.frame(lapply(full, function(x) {
+  gsub("Kevesebb, mint általános iskola 8 osztály", "less than primary school", x)}))
+
+full = data.frame(lapply(full, function(x) {
+  gsub("?\201ltalános iskola 8 osztály", "primary school", x)}))
+
+full = data.frame(lapply(full, function(x) {
+  gsub("Szakközépiskola / Gimnázium érettségi", "secondary school", x)}))
+
+full = data.frame(lapply(full, function(x) {
+  gsub("F?'iskolai vagy BA / BSc diploma", "bachelor", x)}))
+
+full = data.frame(lapply(full, function(x) {
+  gsub("Egyetemi vagy MA / MSc diploma", "master", x)}))
+
+full = data.frame(lapply(full, function(x) {
+  gsub("Tanuló vagyok", "other", x)}))
+
+full = data.frame(lapply(full, function(x) {
+  gsub("okj pénzügy-számvitel", "other", x)}))
+
+
+#FIXING DANISH
+
+#fixing gender
+
+full = data.frame(lapply(full, function(x) {
+  gsub("Kvinde", "female", x)}))
+
+full = data.frame(lapply(full, function(x) {
+  gsub("Mand", "male", x)}))
+
+full = data.frame(lapply(full, function(x) {
+  gsub("Transkvinde", "other", x)}))
+
+full = data.frame(lapply(full, function(x) {
+  gsub("Unicorn", "other", x)}))
+
+
+
+#fixing the scale
+
+#get rid of the "absolutely" ending of the scale
+#keeps only "5"
+full = data.frame(lapply(full, function(x) {
+  gsub(" \\(Meget enig\\)", "", x)}))
+
+#get rid of the "not at all" ending of the scale
+#keeps only "1"
+full = data.frame(lapply(full, function(x) {
+  gsub(" \\(Meget uenig\\)", "", x)}))
+
+
+#fixing education levels
+
+full = data.frame(lapply(full, function(x) {
+  gsub("Folkeskolen/10. klasse/Efterskole", "primary school", x)}))
+
+full = data.frame(lapply(full, function(x) {
+  gsub("Gymnasium/Erhvervsuddannelse/HF", "secondary school", x)}))
+
+full = data.frame(lapply(full, function(x) {
+  gsub("Bacheloruddannelse/Professionsbachelor", "bachelor", x)}))
+
+full = data.frame(lapply(full, function(x) {
+  gsub("Kandidatgrad/Master", "master", x)}))
+
+full = data.frame(lapply(full, function(x) {
+  gsub("Ph.d.", "PhD", x)}))
+
+
+```
+
+```{r }
+#save!
+
+write.csv(full, "C:/Users/torda/Documents/egyetem/emoji/temporary data/no_emoji_1_data.csv", row.names = F) #remember to rename
+
+```
+
+
+```{r other datasets}
+#read in the other datasets, run the prevoius code on them, remember to rename
+
+h=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/study2_hun_no.csv")    
+d=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/study2_dan_no.csv") 
+
+h=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/hun_f.csv")    
+d=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/dan_f.csv") 
+
+h=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/hun_no_f.csv")    
+d=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/dan_no_f.csv") 
+
+
+```
+
+
+```{r create big dataset}
+
+#read in the clean data, bind together, create id, save
+
+non_face=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/non_face_emoji_data.csv")
+face=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/face_emoji_data.csv")
+no_emoji_1=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/no_emoji_1_data.csv")
+no_emoji_2=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/no_emoji_2_data.csv")
+
+emoji_study= rbind(face, non_face, no_emoji_1, no_emoji_2)
+
+write.csv(emoji_study, "C:/Users/torda/Documents/egyetem/emoji/temporary data/emoji_data.csv", row.names = F)
+
+
+emoji=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/emoji_data.csv")
+
+emoji$id= as.numeric(emoji$id)
+
+write.csv(emoji, "C:/Users/torda/Documents/egyetem/emoji/temporary data/all_data.csv", row.names = F)
+
+
+```
+
+
+```{r divide to studies}
+
+#create two seperate files for the two studies in case it will be needed
+
+emoji=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/all_data.csv")
+
+study1= subset(emoji, c(study == "study1"))
+study2= subset(emoji, c(study == "study2"))
+
+write.csv(study1, "C:/Users/torda/Documents/egyetem/emoji/temporary data/study1_data.csv", row.names = F)
+write.csv(study2, "C:/Users/torda/Documents/egyetem/emoji/temporary data/study2_data.csv", row.names = F)
+
+```
+
+

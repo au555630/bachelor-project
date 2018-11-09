@@ -1,0 +1,114 @@
+---
+title: "pca"
+output: html_document
+---
+
+# Read in files
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(corpcor); library(GPArotation); library(psych); library(ggplot2)
+```
+
+```{r read in files}
+all_data=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/all_data.csv")
+
+
+#need only numeric variables for pca
+pca_data= all_data[,2:13]
+
+
+```
+
+
+```{r tests }
+
+cortest.bartlett(pca_data)
+
+KMO(pca_data)
+
+det(cor(pca_data))
+
+```
+
+Bartlett's test is non significant, x2(66) = 2829.03, p = 0. THIS IS BAD!
+
+KMO is good, overall value is 0.93, value for each item is above 0.88.
+
+Determinant is 0.0001300088, the value is greater than the necessary value of 0.00001.
+
+```{r pca}
+
+pca_matrix<-cor(pca_data) #make it a correlation matrix
+
+#principal component analysis - on all factors to see how many factors we have
+pc1 <- principal(pca_matrix, nfactors = 12, rotate = "none") 
+plot(pc1$values, type = "b") #two factors are ok
+
+#principal component analysis - on 2 factors
+pc2 <- principal(pca_matrix, nfactors = 2, rotate = "none") #Fit based upon off diagonal values = 0.99
+
+pc3 <- principal(pca_matrix, nfactors = 2, rotate = "oblimin") #oblique rotation because the factors are probably correlated
+
+
+#factor scores
+
+pc4 <- principal(pca_data, nfactors = 2, rotate = "oblimin", scores = TRUE)
+
+#save competence and warmness
+all_data= cbind(all_data, competence= pc4$scores[,1], warmness= pc4$scores[,2] )
+
+```
+
+
+```{r pca residuals}
+
+#look at residuals
+
+residuals<-factor.residuals(pca_matrix, pc2$loadings)
+residuals<-as.matrix(residuals[upper.tri(residuals)])
+large.resid<-abs(residuals) > 0.05
+sum(large.resid)
+sum(large.resid)/nrow(residuals)
+sqrt(mean(residuals^2)) #0.053
+
+hist(residuals) #not normally distributed!
+```
+
+
+
+#save final files
+```{r }
+
+#final file
+write.csv(all_data, "C:/Users/torda/Documents/egyetem/emoji/temporary data/all_data_pca.csv", row.names = F)
+
+#update files with the pca scores
+pca_all=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/all_data_pca.csv")
+
+study1= subset(pca_all, c(study == "study1"))
+study2= subset(pca_all, c(study == "study2"))
+
+write.csv(study1, "C:/Users/torda/Documents/egyetem/emoji/temporary data/study1_data_pca.csv", row.names = F)
+write.csv(study2, "C:/Users/torda/Documents/egyetem/emoji/temporary data/study2_data_pca.csv", row.names = F)
+
+```
+
+
+#notes from the book 
+In short, they argue that if a factor has four or more loadings greater than .6 then it is reliable regardless of sample size. Furthermore, factors with 10 or more loadings greater than .40 are reliable if the sample size is greater than 150. 
+
+The KMO statistic varies between 0 and 1. A value of 0 indicates that the sum of partial correlations is large relative to the sum of correlations, indicating diffusion in the pattern of correlations (hence, factor analysis is likely to be inappropriate). A value close to 1 indicates that patterns of correlations are relatively compact and so factor analysis should yield distinct and reliable factors. Kaiser (1974) recommends accepting values greater than .5 as barely acceptable (values below this should lead you to either collect more data or rethink which variables to include). Furthermore, values between .5 and .7 are mediocre, values between .7 and .8 are good, values between .8 and .9 are great and values above .9 are superb.
+
+Barlett's test: Therefore, if it is significant then it means that the correlations between variables are (overall) significantly different from zero. So, if Bartlett's test is significant then it is good news. However, as with any significance test, it depends on sample sizes and in factor analysis we typically use very large samples. Therefore, although a non-significant Bartlett's test is certainly cause for concern, a significant test does not necessarily mean that correlations are big enough to make the analysis meaningful.
+
+Therefore, the determinant tells us whether the correlation matrix is singular (determinant is 0), or if all variables are completely unrelated (determinant is 1), or somewhere in between.
+
+
+h2 is the communalities (which are sometimes called h2). These communalities are all equal to 1 because we have extracted 23 items, the same as the number of variables: we've explained all of the variance in every variable. When we extract fewer factors (or components) we'll have lower communalities. Next to the communality column is the uniqueness column, labelled u2. This is the amount of unique variance for each variable, and it's 1 minus the communality; because all of the communalities are 1, all of the uniquenesses are 0.
+
+The eigenvalues associated with each factor represent the variance explained by that particular linear component. R calls these SS loadings (sums of squared loadings), because they are the sum of the squared loadings. (You can also find them in a variable associated with the model called values, so in our case we could access this variable using pc1$values).
+
+proportion of variance explained. Factor 1 explains 7.29 units of variance out of a possible 23 (the number of factors) so as a proportion this is 7.29/23 = 0.32; this is the value that R reports. We can convert these proportions to percentages by multiplying by 100; so, factor 1 explains 32% of the total variance.
+
+Fit based....: So one measure of the residuals is to compare the residuals with the original correlations. Values over 0.95 are often considered indicators of good fit, and as our value is 0.96, this indicates that four factors are sufficient.

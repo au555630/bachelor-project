@@ -1,0 +1,167 @@
+---
+title: "plots"
+output: html_document
+---
+#read in
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r read in files}
+
+
+all_data=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/all_data_pca.csv")
+
+study1=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/study1_data_pca.csv")
+study2=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/study2_data_pca.csv")
+
+study1$education= factor(study1$education, levels= c("less than primary school", "primary school", "secondary school", "bachelor", "master", "PhD", "other"))
+
+study2$education= factor(study2$education, levels= c("less than primary school", "primary school", "secondary school", "bachelor", "master", "PhD", "other"))
+```
+
+#participant info
+```{r participant info}
+
+#number of participants per conditions per study
+#remember to divide by 2 (one participant has 2 rows)
+sum(study1$emoji == "no_emoji") /2
+sum(study1$emoji == "face_emoji") /2
+
+sum(study2$emoji == "no_emoji") /2
+sum(study2$emoji == "non_face_emoji") /2
+
+#number of participants per conditions per study per nationality
+sum(study1$emoji == "no_emoji" & study1$culture == "hungarian") /2
+sum(study1$emoji == "face_emoji" & study1$culture == "hungarian") /2
+
+sum(study2$emoji == "no_emoji" & study2$culture == "hungarian") /2
+sum(study2$emoji == "non_face_emoji" & study2$culture == "hungarian") /2
+
+sum(study1$emoji == "no_emoji" & study1$culture == "danish") /2
+sum(study1$emoji == "face_emoji" & study1$culture == "danish") /2
+
+sum(study2$emoji == "no_emoji" & study2$culture == "danish") /2
+sum(study2$emoji == "non_face_emoji" & study2$culture == "danish") /2
+
+#age
+range(study1$age) #look for measurement error!
+range(study2$age) #look for measurement error!
+mean(study1$age) 
+mean(study2$age)
+
+
+#gender
+sum(study1$gender == "female") 
+sum(study1$gender == "male") 
+sum(study1$gender == "other")
+
+sum(study2$gender == "female") 
+sum(study2$gender == "male") 
+sum(study2$gender == "other")
+
+
+#education
+
+sum(study1$education == "less than primary school") 
+sum(study1$education == "primary school") 
+sum(study1$education == "secondary school")
+sum(study1$education == "bachelor") 
+sum(study1$education == "master") 
+sum(study1$education == "PhD")
+sum(study1$education == "other")
+
+sum(study2$education == "less than primary school") 
+sum(study2$education == "primary school") 
+sum(study2$education == "secondary school")
+sum(study2$education == "bachelor") 
+sum(study2$education == "master") 
+sum(study2$education == "PhD")
+sum(study2$education == "other")
+
+```
+
+
+#visualise data
+```{r }
+
+library(ggplot2)
+
+#gender per conditions
+ggplot(study1) +
+  geom_bar(aes(x= gender)) +
+  facet_grid(emoji~ culture) +
+  xlab("Participant gender for each condition and cultural background") 
+
+#gender per conditions
+ggplot(study2) +
+  geom_bar(aes(x= gender)) +
+  facet_grid(emoji~ culture) +
+  xlab("Participant gender for each condition and cultural background") 
+
+#age
+ggplot(study1) +
+  geom_histogram(aes(x= age), binwidth = 0.5) +
+  facet_grid(emoji~ culture) +
+  xlab("Participant age for each condition and cultural background")
+
+#age
+ggplot(study2) +
+  geom_histogram(aes(x= age), binwidth = 0.5) +
+  facet_grid(emoji~ culture) +
+  xlab("Participant age for each condition and cultural background")
+
+#educational level
+ggplot(study1) +
+  geom_bar(aes(x= education)) +
+  xlab("Participant educational level") 
+
+#educational level
+ggplot(study2) +
+  geom_bar(aes(x= education)) +
+  xlab("Participant educational level") 
+
+#sender gender and formality
+
+study1_inf= subset(study1, c(formality == 0)) # informal is 0
+study1_for= subset(study1, c(formality == 1)) 
+
+study2_inf= subset(study2, c(formality == 0)) 
+study2_for= subset(study2, c(formality == 1)) 
+
+#sender gender in informal condition
+# face emoji study
+ggplot(study1_inf) +
+  geom_bar(aes(x= sender_gender)) +
+  facet_grid(culture ~ emoji) +
+  xlab("Sender gender informal condition") 
+
+
+#sender gender in formal condition
+# face emoji study
+ggplot(study1_for) +
+  geom_bar(aes(x= sender_gender)) +
+  facet_grid(culture ~ emoji) +
+  xlab("Sender gender formal condition") 
+
+
+#sender gender in informal condition
+# non-face emoji study
+ggplot(study2_inf) +
+  geom_bar(aes(x= sender_gender)) +
+  facet_grid(culture ~ emoji) +
+  xlab("Sender gender informal condition") 
+
+
+#sender gender in formal condition
+# non-face emoji study
+ggplot(study2_for) +
+  geom_bar(aes(x= sender_gender)) +
+  facet_grid(culture ~ emoji) +
+  xlab("Sender gender formal condition") 
+
+#renee is male, remi is female.
+
+
+
+```
