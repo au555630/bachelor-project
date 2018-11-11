@@ -1,0 +1,121 @@
+---
+title: "models"
+output: html_document
+---
+#read in
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r read in files}
+
+
+all_data=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/all_data_pca.csv")
+
+study1=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/study1_data_pca.csv")
+study2=read.csv("C:/Users/torda/Documents/egyetem/emoji/temporary data/study2_data_pca.csv")
+
+study1$emoji= factor(study1$emoji, levels= c("no_emoji", "face_emoji"))
+
+study1$education= factor(study1$education, levels= c("less than primary school", "primary school", "secondary school", "bachelor", "master", "PhD", "other"))
+
+study2$education= factor(study2$education, levels= c("less than primary school", "primary school", "secondary school", "bachelor", "master", "PhD", "other"))
+
+```
+
+#hypotheses
+Study 1. Face-emoji
+
+Hypothesis 1. Using face emoji in an informal online environment helps to cause a better first impression of the sender of the message by raising perceived warmth of the person while not affecting their perceived competence.
+
+Hypothesis 2. Using face emoji in a formal online environment causes a worse first impression of the sender of the message as it does not help to raise perceived warmth of the person while it decreases their perceived competence.
+
+Hypothesis 3. In a Danish formal email with emoji the perceived competence of the sender will be higher than the one in a Hungarian formal email with emoji.
+
+
+Study 2. Non-face emoji #same as for study1
+Hypothesis 1. Using non-face emoji in an informal online environment helps to cause a better first impression of the sender of the message by raising perceived warmth of the person while not affecting their perceived competence.
+
+Hypothesis 2. Using non-face emoji in a formal online environment causes a worse first impression of the sender of the message as it does not help to raise perceived warmth of the person while it decreases their perceived competence.
+
+Hypothesis 3. The perceived competence of the sender will be higher in a Danish formal email with emoji than the one in a Hungarian formal email with emoji.
+
+Exploratory analysis:
+Does perceived gender matter for perceived warmth and competence in any of the conditions?
+
+Maybe also explore the difference between face and non-face emoji, given that I can?
+
+#study 1
+
+Does the presence of the emoji matter for first impression, given the formality of the text?
+-	warmth ~ α + β1 *emoji + β2 *formality + β3 *emoji*formality
+- competence ~ α + β1 *emoji + β2 *formality + β3 *emoji*formality
+```{r }
+library(lmerTest)
+#hypothesis 1/a: higher warmth for informal
+model1= lmer(warmness ~ emoji + formality + emoji*formality + (1|id), study1)
+#hypothesis 1/b: same competence for informal and formal
+model2= lmer(competence ~ emoji + formality + emoji*formality + (1|id), study1)
+
+#hypothesis 2/a: same wamrth for formal and informal
+#?
+#hypothesis 2/b: lower competence for formal
+
+```
+
+For formal data with emoji look at difference in culture
+-	expecting Danish to have a higher competence than Hungarian
+-	competence ~ α + β1 *emoji + β2 *country + β3 *emoji*formality*culture 
+
+```{r }
+
+#hypothesis 3: higher competence for danish
+model5= lmer(competence ~ emoji + culture + emoji*formality*culture + (1|id), study1)
+
+
+```
+
+Appropriateness
+-	Does the rating of appropriateness explain the ratings for warmth and competence?
+-	I am not sure how to do this.
+- I'm adding appro. to the interection model because I want to see if it explains variance in the data that is not explained by the interaction.
+- Maybe it should be an interaction, right? I don't know :(
+-	warmth ~ α + β1 *emoji + β2 *formality + β3 *emoji*formality + β4* appropriateness
+-	competence ~ α + β1 *emoji + β2 *formality + β3 *emoji*formality + β4* appropriateness
+
+```{r }
+
+model6= lmer(warmness ~ emoji + formality + emoji*formality + appropriateness + (1|id), study1)
+
+model7= lmer(competence ~ emoji + formality + emoji*formality + appropriateness + (1|id), study1)
+```
+
+Exploratory analysis – gender of the sender
+Does perceived gender matter for perceived warmth and competence in any of the conditions?
+-	warmth ~ α + β1 *emoji + β2 *formality + β3 *emoji*formality + β4*sender_gender
+-	competence ~ α + β1 *emoji + β2 *formality + β3 *emoji*formality + β4*sender_gender
+
+```{r }
+
+model8= lmer(warmness ~ emoji + formality + emoji*formality + sender_gender + (1|id), study1)
+
+model9= lmer(competence ~ emoji + formality + emoji*formality + sender_gender + (1|id), study1)
+```
+
+Exploratory analysis – emoji usage
+Does the self-reported frequency of using emoji matter for perceived warmth and competence in any of the conditions?
+-	warmth ~ α + β1 *emoji + β2 *formality + β3 *emoji*formality + β4*emoji_usage
+-	competence ~ α + β1 *emoji + β2 *formality + β3 *emoji*formality + β4*emoji_usage
+
+```{r }
+
+model10= lmer(warmness ~ emoji + formality + emoji*formality + emoji_usage + (1|id), study1)
+
+model11= lmer(competence ~ emoji + formality + emoji*formality + emoji_usage + (1|id), study1)
+```
+
+#study 2
+
+Same...
+
